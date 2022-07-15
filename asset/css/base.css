@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+}
+:root{
+    --primary-color: #452f64;
+    --header-color: #350a4e;
+    --text-color-white: #f4f4f8;
+    --text-color-black: #2d2c2c;
+    --btn: linear-gradient(to right, #fa9e1b, #8d4fff);
+    --hover-color: #fa7643;
+    --hover-color-2: #fa9e1b;
+    --background-color: linear-gradient(to right, #fa9e1b, #8d4fff);
+    --background: rgba(49, 18, 75, .55);
+    --background-color-white: #fff;
+    --width-img: 82px;
+}
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.btn {
+    width: 220px;
+    height: 54px;
+    background: var(--btn);
+    border: 0px solid;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 200% 100%;
+    transition: all 0.5s ease;
+    box-shadow: 0px 1px 3px #cf00eb;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-position:right bottom;
+}
+
+/* .slider__btn-wrap {
+    margin: 0 auto;
+} */
+
+.btn a {
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.4rem;
+    color: var(--text-color-white);
+    text-align: center;
+    display: inline-block;
+    margin-right: 5px;
+    text-transform: uppercase;
+}
+
+.btn .a {
+    opacity: 1;
+}
+
+.btn .b {
+    opacity: 0.6;
+}
+
+.btn span {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    left: 2px;
+    margin-left: 4px;
+    background-color: var(--text-color-white);
+    opacity: 0.4;
+}
+
+.item-content-star span.item-content-center-icon {
+    margin-right: 4px;
+}
+
+.item-content-star span.item-content-center-icon:first-child {
+    color: #ffeb8d;
+}
+.item-content-star span.item-content-center-icon:nth-child(2) {
+    color: #fed46b;
+}
+.item-content-star span.item-content-center-icon:nth-child(3) {
+    color: #fbb53d;
+}
+.item-content-star span.item-content-center-icon:nth-child(4) {
+    color: #fa9e1b;
+}
+.item-content-star span.item-content-center-icon:nth-child(5) {
+    color: #a5a5a5;
+}
+
+.item-content-center-icon {
+    font-size: 1.8rem;
+}
